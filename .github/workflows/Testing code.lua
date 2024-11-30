@@ -4,7 +4,7 @@ local Window = Rayfield:CreateWindow({
    Name = "T1 hub / Первый русский скрипт",
    Icon = 129826331604126, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Загрузка",
-   LoadingSubtitle = "T1 и SKWERKIN",
+   LoadingSubtitle = "T1",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
@@ -38,7 +38,7 @@ local Button = Tab:CreateButton({
   Name = "Банка Мочи",
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/refs/heads/main/StarJug.lua"))() 
-    end    
+    end,
 })
 local Button = Tab:CreateButton({
    Name = "Синий портал (не работает на телефонах",
@@ -77,7 +77,8 @@ Name = "Черная дыра",
     loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Black%20Hole.lua"))() 
    end,
 })
-local Tab = Window:CreateTab("Монстры",13143005702)local Button = Tab:CreateButton({
+local Tab = Window:CreateTab("Монстры",13143005702)
+local Button = Tab:CreateButton({
    Name = "Заспавни Пандениона",
    Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/PandemoniumProtected.lua"))()  
@@ -90,12 +91,12 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
    end,
 })
-
 local Button = Tab:CreateButton({
   Name = "Морфы (рекомендую врубать на ПК)",
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))() 
     end,
+})
 local Tab = Window:CreateTab("Моды",4483362458)
 local Button = Tab:CreateButton({
 Name = "Жуткий мод",

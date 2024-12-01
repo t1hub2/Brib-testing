@@ -97,7 +97,7 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))() 
     end,
 })
-local Tab = Window:CreateTab("Читы 2",4483362458)
+local Tab = Window:CreateTab("Читы 2",17084915860)
 local Button = Tab:CreateButton({
 Name = "полное освещения",
    Callback = function()

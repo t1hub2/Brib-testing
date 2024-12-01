@@ -84,7 +84,7 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/PandemoniumProtected.lua"))()  
    end,
 })
-local Tab = Window:CreateTab("Читы",4483362458)
+local Tab = Window:CreateTab("Читы",17084915860)
 local Button = Tab:CreateButton({
    Name = "Мс паинт v3 (не обновляется)",
    Callback = function()

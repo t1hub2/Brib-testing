@@ -83,6 +83,11 @@ Name = "Черная дыра",
     loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Black%20Hole.lua"))() 
    end,
 })
+Name = "Банка красной жижи",
+   Callback = function()
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/8b05c837bea9effac2554340465b4be1/raw/3f3be0ee72e7f153db39a16a40fa63dce6cde72d/SpiralBottle'))() 
+   end,
+})
 local Tab = Window:CreateTab("Монстры",13143005702)
 local Button = Tab:CreateButton({
    Name = "Заспавни Пандениона",

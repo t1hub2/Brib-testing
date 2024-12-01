@@ -97,6 +97,13 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))() 
     end,
 })
+local Tab = Window:CreateTab("Читы(2)",4483362458)
+local Button = Tab:CreateButton({
+Name = "полное освещения",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SCRIPTINGER/LIE1-HUB/refs/heads/main/Scripts/FullBright/false'))() 
+   end,
+})
 local Tab = Window:CreateTab("Моды",4483362458)
 local Button = Tab:CreateButton({
 Name = "Жуткий мод",

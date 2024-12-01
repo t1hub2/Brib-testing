@@ -33,6 +33,12 @@ local Window = Rayfield:CreateWindow({
       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
+Rayfield:Notify({
+   Title = "Предупреждение",
+   Content = "Все скрипты были взяты из Legit mods offical discord! Даня не убивай меня :(",
+   Duration = 6.5,
+   Image = 4483362458,
+})
 local Tab = Window:CreateTab("предметы",12771221110) -- Title, Image
 local Button = Tab:CreateButton({
   Name = "Банка Мочи",

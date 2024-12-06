@@ -156,3 +156,16 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/2017mode/refs/heads/main/2017MODEtxt.txt"))()-- The function that takes place when the button is pressed
    end,
 })
+local Tab = Window:CreateTab("Крутые фичи",4483362458)
+local Button = Tab:CreateButton({
+   Name = "Синий портал (не работает на телефонах",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/HT8jgqAY"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Revive защита двери",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/Revivelight%20Door%20protection%20BY%20CUSTOM%20DOORS"))()-- The function that takes place when the button is pressed
+   end,
+})

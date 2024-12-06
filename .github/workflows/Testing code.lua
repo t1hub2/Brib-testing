@@ -98,6 +98,12 @@ _G.Variant = "Electric"
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Глитчнутый сканер",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/Glitched%20Scanner%20by%20Custom%20Doors"))()-- The function that takes place when the button is pressed
+   end,
+})
 local Tab = Window:CreateTab("Монстры",13143005702)
 local Button = Tab:CreateButton({
    Name = "Заспавни Пандениона",
@@ -115,7 +121,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
   Name = "Морфы (рекомендую врубать на ПК)",
   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))() 
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))() 
     end,
 })
 local Tab = Window:CreateTab("Читы 2",17084915860)

@@ -1,3 +1,14 @@
+---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Приветик!",
+    Desc = "Это T1 hub!",
+    Reason = "Запустить T1 hub",
+    Image = "129826331604126"
+})
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "T1 hub / Первый русский скрипт",

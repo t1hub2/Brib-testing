@@ -167,8 +167,7 @@ ColorCorrection.Contrast = 0.13
 ColorCorrection.Saturation = 0.15
 
 game.Lighting.GlobalShadows = false
-game.Lighting.OutdoorAmbient = Color3.fromRGB(35, 35, 45)
-end)-- The function that takes place when the button is pressed
+game.Lighting.OutdoorAmbient = Color3.fromRGB(35, 35, 45)-- The function that takes place when the button is pressed
    end,
 })
 local Tab = Window:CreateTab("Моды",14168652350)

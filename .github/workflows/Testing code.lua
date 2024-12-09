@@ -110,6 +110,18 @@ local Button = Tab:CreateButton({
     loadstring(Game:HttpGet("https://raw.githubusercontent.com/yieviro92creepy/WeirdPinktablet/main/sigma"))()-- The function that takes place when the button is pressed
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Супер бомба",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CatEnddroid/Subs-Space-Tripmine/refs/heads/main/SubspacesTripmine.lua"))()-- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Игрушка Сик",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CatEnddroid/Seek-Plushie/refs/heads/main/SeekPlushie.lua"))()-- The function that takes place when the button is pressed
+   end,
+})
 local Tab = Window:CreateTab("Монстры",13143005702)
 local Button = Tab:CreateButton({
    Name = "Заспавни Пандениона",
@@ -204,7 +216,12 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/Revivelight%20Door%20protection%20BY%20CUSTOM%20DOORS"))()-- The function that takes place when the button is pressed
    end,
 })
-
+local Button = Tab:CreateButton({
+   Name = "Желтый портал",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/HT8jgqAY"))()-- The function that takes place when the button is pressed
+   end,
+})
 ---====== Load achievement giver ======---
 local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
 

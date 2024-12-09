@@ -222,6 +222,10 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://pastebin.com/raw/HT8jgqAY"))()-- The function that takes place when the button is pressed
    end,
 })
+local Tab = Window:CreateTab("Создатели и тд.",4483362458)
+local Paragraph = Tab:CreateParagraph({Title = "Создатели", Content = "T1 и SCRIPTINGER"})
+local Paragraph = Tab:CreateParagraph({Title = "Телеграм", Content = "https://t.me/T1hubb"})
+
 ---====== Load achievement giver ======---
 local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
 

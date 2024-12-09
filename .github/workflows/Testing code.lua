@@ -150,22 +150,18 @@ local Button = Tab:CreateButton({
 Bloom.Intensity = 0.12
 Bloom.Size = 9e9
 Bloom.Threshold = 0.05
-
 local DepthOfField = Instance.new("DepthOfFieldEffect", game.Lighting)
 DepthOfField.FarIntensity = 0.3
 DepthOfField.FocusDistance = 20
 DepthOfField.InFocusRadius = 0
 DepthOfField.NearIntensity = 0
-
 local SunRays = Instance.new("SunRaysEffect", game.Lighting)
 SunRays.Intensity = 0.1
 SunRays.Spread = 0.8
-
 local ColorCorrection = Instance.new("ColorCorrectionEffect", game.Lighting)
 ColorCorrection.Brightness = 0.025
 ColorCorrection.Contrast = 0.13
 ColorCorrection.Saturation = 0.15
-
 game.Lighting.GlobalShadows = false
 game.Lighting.OutdoorAmbient = Color3.fromRGB(35, 35, 45)-- The function that takes place when the button is pressed
    end,

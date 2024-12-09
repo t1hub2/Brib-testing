@@ -1,14 +1,3 @@
----====== Load achievement giver ======---
-local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
-
----====== Display achievement ======---
-achievementGiver({
-    Title = "Приветик!",
-    Desc = "Это T1 hub!",
-    Reason = "Запустить T1 hub",
-    Image = "129826331604126"
-})
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "T1 hub / Первый русский скрипт",
@@ -149,9 +138,18 @@ local Button = Tab:CreateButton({
 })
 local Tab = Window:CreateTab("Читы 2",17084915860)
 local Button = Tab:CreateButton({
-Name = "полное освещения",
+Name = "полное освещениe",
    Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SCRIPTINGER/LIE1-HUB/refs/heads/main/Scripts/FullBright/false'))() 
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Шейдеры от меня",
+   Callback = function()
+    local Bloom = Instance.new("BloomEffect", game.Lighting)
+Bloom.Intensity = 0.12
+Bloom.Size = 9e9
+Bloom.Threshold = 0.05-- The function that takes place when the button is pressed
    end,
 })
 local Tab = Window:CreateTab("Моды",14168652350)
@@ -189,6 +187,17 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Revive защита двери",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/Revivelight%20Door%20protection%20BY%20CUSTOM%20DOORS"))()-- The function that takes place when the button is pressed
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/Revivelight%20Door%20protection%20BY%20CUSTOM%20DOORS"))()-- The function that takes place when the button is pressed
    end,
+})
+
+---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Приветик!",
+    Desc = "Это T1 hub!",
+    Reason = "Запустить T1 hub",
+    Image = "129826331604126"
 })

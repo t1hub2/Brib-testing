@@ -36,7 +36,7 @@ Rayfield:Notify({
    Title = "Предупреждение",
    Content = "Все скрипты были взяты из Legit mods offical discord! Даня не убивай меня :(",
    Duration = 6.5,
-   Image = 4483362458,
+   Image = "triangle-alert",
 })
 local Tab = Window:CreateTab("предметы",12771221110) -- Title, Image
 local Button = Tab:CreateButton({

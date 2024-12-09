@@ -178,6 +178,18 @@ game.Lighting.GlobalShadows = false
 game.Lighting.OutdoorAmbient = Color3.fromRGB(35, 35, 45)-- The function that takes place when the button is pressed
    end,
 })
+local Slider = Tab:CreateSlider({
+   Name = "Скорость",
+   Range = {0, 100},
+   Increment = 10,
+   Suffix = Че это",
+   CurrentValue = 0,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+   -- The variable (Value) is a number which correlates to the value the slider is currently at
+   end,
+})
 local Tab = Window:CreateTab("Моды",14168652350)
 local Button = Tab:CreateButton({
 Name = "Жуткий мод",
